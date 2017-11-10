@@ -41,8 +41,8 @@ int main ()
        
          if ( read (n , mas) ) {
               string str1;
-			        getline(cin, str1);
-			        istringstream stream(str1);
+	      getline(cin, str1);
+	      istringstream stream(str1);
                 
                 if (stream >> k) {
             
