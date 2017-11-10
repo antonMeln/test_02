@@ -20,7 +20,7 @@ bool read (int & n, int * mas)
 int main ()
  { 
    int * mas = new int; 
-   int i,j,n;
+   int i,n;
    string str;
    getline(cin,str);
    istringstream  stream (str);
